@@ -1,5 +1,4 @@
 @font-face { font-family: "Patrick Hand"; src: url("fonts/patrick-hand.woff2") format("woff2"); font-display: swap; }
-@font-face { font-family: "Old Standard TT"; font-weight: 700; src: url("fonts/old-standard-tt-700.woff2") format("woff2"); font-display: swap; }
 :root {
   --paper: #F4ECDC;
   --env: #FBF7EC;
@@ -26,9 +25,7 @@ main, footer { max-width: 40rem; margin: 0 auto; padding: 0 16px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
 .hero { text-align: center; padding: 2.2rem 0 1.2rem; }
-.seal { width: 7.5rem; height: 7.5rem; color: var(--ink); }
-.seal .ko { fill: var(--paper); }
-.seal-type { font-family: "Old Standard TT", Georgia, serif; font-weight: 700; }
+.seal { display: block; width: 10rem; height: 10rem; margin: 0 auto; }
 h1 { font-weight: 400; font-size: clamp(2.4rem, 9vw, 3.6rem); line-height: 1.1; margin: 0.9rem 0 0; }
 .underlined {
   display: inline-block;
